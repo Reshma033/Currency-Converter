@@ -26,22 +26,18 @@
 ```bash
 git clone https://github.com/yourusername/CurrencyConverterFX.git
 cd CurrencyConverterFX
-2. Compile the application:
-bash
-Copy
-Edit
+
+### 2. Compile the application:
+
 javac --module-path "<path-to-javafx-lib>" --add-modules javafx.controls -cp "lib/json-20231013.jar" -d out src/CurrencyConverterFX.java
-3. Run the application:
-bash
-Copy
-Edit
+
+###3. Run the application:
+
 java --module-path "<path-to-javafx-lib>" --add-modules javafx.controls -cp "out;lib/json-20231013.jar" CurrencyConverterFX
 🔁 Replace <path-to-javafx-lib> with your local JavaFX lib folder path.
 
 📦 Folder Structure
-vbnet
-Copy
-Edit
+
 CurrencyConverterFX/
 ├── src/
 │   └── CurrencyConverterFX.java
